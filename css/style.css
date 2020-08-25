@@ -1,0 +1,163 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    background: url("../img/5778734-dark-wood-wallpapers.jpg") no-repeat;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    background-color: #dbd7d2;
+    margin-bottom: 20px;
+}
+
+.header{
+    padding-top: 30px;
+    padding-left: 100px;
+    margin-bottom: 15px;
+    background-color: #000000;
+}
+
+.header-position{
+    margin-top: 15px;
+}
+
+.header-nav{
+    margin-top: 15px;
+}
+.header-container{
+    display: flex;
+}
+
+.header-text{
+    color: #ffffff;
+    margin-right: 5px;
+}
+.header-logo{
+    width: 300px;
+    height: 40px;
+    margin-right: 705px;
+}
+
+.logo{
+    text-indent: -9999px;
+}
+
+.caption-section{
+    padding-bottom: 100px;
+}
+
+.assortment-position{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.position-p{
+    display: inline-block;
+}
+
+.assortiment-card{
+    padding-top: 130px;
+    padding-left: 15px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.assortiment-link{
+    border: 1px solid #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 12px;
+    margin-left: 455px;
+}
+
+.position-link{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.assortiment-card-fon{
+    background: url("../img/opt_default_image.png")no-repeat;
+    background-size: 100% 50%;
+    background-color: #f6f6f6;
+}
+
+.assortment{
+    margin-bottom: 80px;
+}
+
+.footer{
+    border-top: 1px solid #000000;
+    padding-left: 30px;
+    margin-left: -50px;
+    margin-right: -30px;
+    margin-bottom: 10px;
+    background: url("../img/logo-black.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 30%;
+}
+
+.contacts-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.contacts-icon:not(:last-child){
+    margin-bottom: 21px;
+}
+
+.icon-position{
+    display: flex;
+}
+
+.icon{
+    margin-top: 20px;
+}
+.icon:not(:last-child){
+    margin-right: 20px;
+}
+
+.icon-vk{
+    background: url("../img/vk.svg") no-repeat;
+}
+
+.icon-inst{
+    background: url("../img/instagram.svg") no-repeat;
+}
+
+.icon-wats{
+    background: url("../img/wats.svg") no-repeat;
+}
